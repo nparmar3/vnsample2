@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+
+h1 {
+	text-align: center;
+	font-family: "arial";
+	color: white;
+	background-color: #00415a;
+	letter-spacing: 12px;
+	font-size: 32px;
+	padding-top: -10px;
+	
+}
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  background-color: gray;
+  padding-top: 50px;
+}
+
+.topnav a {
+	float: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+ a:hover {
+  background-color: white;
+  color: #00415a; /* header font color */
+}
+
+a.active {
+	background-color: white;
+	color: #00415a;
+}
+
+.headdiv {
+	background-color: #00415a;
+}
+
+body {
+	background-color: ;
+}
